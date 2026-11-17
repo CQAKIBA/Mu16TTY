@@ -1,0 +1,9 @@
+{
+  "callsign": "JA1TEST",
+  "message": "猫",
+  "rate_mode": 0,
+  "session_id": "0102030405060708",
+  "sequence": 9,
+  "timestamp": 1700000000,
+  "packet_hex": "0100180003070102030405060708000000096553f10000004a413154455354e78cabfac45560"
+}
