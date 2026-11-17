@@ -44,6 +44,7 @@ try {
     Copy-Item -LiteralPath (Join-Path $project 'LICENSE') -Destination (Join-Path $app 'LICENSE')
     Copy-Item -LiteralPath (Join-Path $project 'THIRD_PARTY_NOTICES.md') -Destination $app
     Copy-Item -LiteralPath (Join-Path $project 'licenses') -Destination $app -Recurse
+    Copy-Item -LiteralPath (Join-Path $project 'docs\Mu16TTY通信方式仕様書.md') -Destination $app
     $stagedZip = Join-Path $stage 'Mu16TTY-native-windows-x64.zip'
     Compress-Archive -LiteralPath $app -DestinationPath $stagedZip
     Move-Item -LiteralPath $stagedZip -Destination $zip -Force

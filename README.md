@@ -4,7 +4,6 @@
 日本語や絵文字を音声帯域で伝送し、ブラウザに履歴と受信状態を表示します。
 
 現在の主な実装はWindows x64向けC版です。
-通信方式と実装は初版公開に向けた調整中です。
 
 ## 主な機能
 
@@ -18,7 +17,7 @@
 
 ## Windowsで使う
 
-配布用ファイル名は Mu16TTY-native-windows-x64.zip です。
+[Releases](https://github.com/CQAKIBA/Mu16TTY/releases)から Mu16TTY-native-windows-x64.zip を取得できます。
 プロジェクトURL: https://github.com/CQAKIBA/Mu16TTY
 
 1. ZIPを展開し、Mu16TTY-native.exeを起動します。
@@ -48,7 +47,7 @@ HTTP設定はconfig/http.iniに保存され、パスワードは平文です。H
 ## 開発と仕様
 
 - [C版ビルド方法](docs/build-native.md)
-- [暫定通信方式仕様書](docs/Mu16TTY暫定通信方式仕様書.md)
+- [通信方式仕様書](docs/Mu16TTY通信方式仕様書.md)
 - [テスト方法とデータ](tests/README.md)
 
 | 場所 | 内容 |
@@ -59,7 +58,7 @@ HTTP設定はconfig/http.iniに保存され、パスワードは平文です。H
 | docs/ | 仕様・設計・実験記録 |
 | packaging/ | 配布生成スクリプト |
 
-## 公開準備
+## ライセンス
 
 オリジナルのソースは[MIT License](LICENSE)で公開します。
 

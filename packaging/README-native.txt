@@ -1,4 +1,4 @@
-Mu16TTY C版 Windows x64
+Mu16TTY v0.1.0 C版 Windows x64
 
 ZIPを展開しMu16TTY-native.exeを起動します。
 コンソールのhttp://127.0.0.1:ポート番号/をブラウザで開いてください。
@@ -20,3 +20,5 @@ Copyright (c) 2026 Daisuke JA1UMW / CQAKIBA.TOKYO
 Released under the MIT License.
 オリジナルソースのライセンス全文はLICENSEを参照してください。
 第三者コンポーネントにはそれぞれのライセンスが適用されます。
+
+通信方式は同梱のMu16TTY通信方式仕様書.mdを参照してください。
